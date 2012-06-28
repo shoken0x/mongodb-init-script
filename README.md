@@ -19,10 +19,9 @@ If you need you make 'data' dir on dbpath.
 
 and execute command as root.
 
->
-# cp mongod /etc/init.d/
-# cp mongod.conf /etc/
-# chkconfig --add mongod
 
-# service mongod {start|stop|restart|status}
-<
+    # cp mongod /etc/init.d/
+    # cp mongod.conf /etc/
+    # chkconfig --add mongod
+    
+    # service mongod {start|stop|restart|status}
