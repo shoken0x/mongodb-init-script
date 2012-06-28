@@ -9,11 +9,11 @@ Usage: mongod {start|stop|restart|status}
 Please change below values for your environment.
 
 * mongod
-MONGOHOME
-CONFIGFILE
+    -MONGOHOME
+    -CONFIGFILE
 
 * mongod.conf
-dbpath
+    -dbpath
 
 If you need you make 'data' dir on dbpath.
 
