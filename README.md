@@ -16,7 +16,6 @@ Please change below values for your environment.
 mongod
 
     MONGOHOME
-    CONFIGFILE
 
 mongod.conf
 
@@ -28,6 +27,7 @@ and execute command as root.
 
 
     # cp mongod /etc/init.d/
+    # chmod +x  /etc/init.d/mongod
     # cp mongod.conf /etc/
     # chkconfig --add mongod
     
