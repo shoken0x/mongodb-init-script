@@ -11,6 +11,7 @@ Usage:
     # mongod {start|stop|restart|status}
 
 
+## Settings
 Please change below values for your environment in each file.
 
 in mongod
@@ -23,7 +24,10 @@ in mongod.conf
 
 If you need you make 'data' dir on dbpath.
 
-and execute command as root.
+
+## Install and run
+
+execute command as root.
 
 
     # cp mongod /etc/init.d/
