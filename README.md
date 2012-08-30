@@ -11,15 +11,15 @@ Usage:
     # mongod {start|stop|restart|status}
 
 
-Please change below values for your environment.
+Please change below values for your environment in each file.
 
-mongod
+in mongod
 
-    MONGOHOME
+    MONGOHOME = "your mongo home path"
 
-mongod.conf
+in mongod.conf
 
-    dbpath
+    dbpath = "your db path"
 
 If you need you make 'data' dir on dbpath.
 
