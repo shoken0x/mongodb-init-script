@@ -6,6 +6,9 @@ This is Init Script for MongoDB based on rpm.
 rpm is here.
 http://docs.mongodb.org/manual/tutorial/install-mongodb-on-redhat-centos-or-fedora-linux/
 
+repository
+https://github.com/mongodb/mongo/tree/master/rpm
+
 Usage: 
 
     # mongod {start|stop|restart|status}
